@@ -1,0 +1,32 @@
+{
+  "name": "rawdevjs-filter-demosaic",
+  "version": "1.0.0",
+  "description": "Bayer pattern demosaic filter",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rawdevjs/rawdevjs-filter-demosaic.git"
+  },
+  "keywords": [
+    "rawdevjs",
+    "demosaic"
+  ],
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rawdevjs/rawdevjs-filter-demosaic/issues"
+  },
+  "homepage": "https://github.com/rawdevjs/rawdevjs-filter-demosaic",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "rawdevjs-image": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "readmeFilename": "README.md"
+}
